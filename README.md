@@ -50,8 +50,8 @@ Follow these steps to run the application locally:
 
 ### 1. Clone the repository:
 ```bash
-git clone https://github.com/MeetPatel3905/Real-Time-Collaboration-Tool.git
-cd Real-Time-Collaboration-Tool
+git clone https://github.com/MeetPatel3905/-Real-Time-Collaboration-Tool.git
+cd -Real-Time-Collaboration-Tool
 ```
 
 ### 2. Install dependencies for backend:
