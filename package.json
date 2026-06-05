@@ -1,0 +1,28 @@
+{
+  "name": "real-time-collaboration-tool",
+  "version": "1.0.0",
+  "description": "Real-time collaborative document editing application",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "frontend-build": "cd src/client && npm install && npm run build",
+    "backend-build": "npm install",
+    "build": "npm run frontend-build && npm run backend-build"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.0",
+    "nodemailer": "^6.9.8",
+    "nodemon": "^3.1.4",
+    "socket.io": "^4.7.4"
+  },
+  "keywords": [],
+  "author": "Meet Bhavin Patel",
+  "license": "MIT"
+}
